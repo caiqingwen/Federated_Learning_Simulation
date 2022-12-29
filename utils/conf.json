@@ -1,0 +1,27 @@
+{
+    "model_name" : "模型名称",
+	"model_name" : "resnet18",
+
+    "no_models" : "客户端总数量",
+	"no_models" : 5,
+
+    "type" : "数据集信息",
+	"type" : "cifar",
+
+	"global_epochs" : "全局迭代次数",
+	"global_epochs" : 5,
+
+	"local_epochs" : "本地迭代次数",
+	"local_epochs" : 2,
+
+	"k" : "每一轮选用k个客户端参与训练",
+	"k" : 3,
+
+	"batch_size" : "本地训练每一轮的样本数",
+	"batch_size" : 32,
+ 
+    "notes" : "本地训练的超参数设置",
+	"lr" : 0.001,
+	"momentum" : 0.0001,
+	"lambda" : 0.1
+}
